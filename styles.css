@@ -78,10 +78,8 @@ body {
 
 .one {
     position: absolute;
-    top: 60px;
-    left: 310px;
-    right: 13px;
-    transform: rotateX('-10%');
+    top: 13%;
+    left: 72%;
 }
 
 .two {
@@ -176,45 +174,16 @@ h2 {
     margin-top: -40px;
 }
 
-.date-window {
-    width: 125px;
-    height: 20px;
-    background-color: white;
-    border-radius: 8px solid;
-    border-style: solid;
-    position: absolute;
-    margin-left: 170px;
-    transform: translateY(295px);
-}
-
-.date-display {
-    position: absolute;
-    top: 65%;
-    left: 38%;
-    margin-left: 15px;
-    transform: translateY(300%);
-    font-size: 14px;
-    color: black;
-}
 
 
-
-.clock:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 40px rgba(255, 255, 255, 0.15);
-}
-
-.dayWeekDisplay {
-    position: absolute;
-    right: 175px;
-    bottom: 115px;
-    transform: translateY(-20px);
-    font-size: 15px;
-    color: orange;
-}
-
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .clock {
         width: 90vw;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 2vh;
     }
 }

@@ -31,7 +31,6 @@ function updateDate() {
     const month = now.getMonth() + 1;
     const year = now.getFullYear();
 
-    let weekDay = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
     let today = new Date();
     let dayNumber = today.getDay();
     let dayName = weekDay[dayNumber];
