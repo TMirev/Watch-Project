@@ -1,4 +1,4 @@
-# Watch
+# Watch landing page
 
 A simple, responsive digital watch built using HTML, CSS, and JavaScript. 
 The project displays the current time in real‑time and updates every second, demonstrating core front‑end skills such as DOM manipulation, styling, and dynamic UI updates.
